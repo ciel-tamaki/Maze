@@ -13,6 +13,7 @@
 		936E5402264D486F0001C283 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936E5400264D486F0001C283 /* Main.storyboard */; };
 		936E5404264D48710001C283 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936E5403264D48710001C283 /* Assets.xcassets */; };
 		936E5407264D48710001C283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936E5405264D48710001C283 /* LaunchScreen.storyboard */; };
+		93DF40ED264E74E500BA9394 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 93DF40EC264E74E500BA9394 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		936E5403264D48710001C283 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		936E5406264D48710001C283 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		936E5408264D48710001C283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93DF40EC264E74E500BA9394 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		936E53F9264D486E0001C283 /* Maze */ = {
 			isa = PBXGroup;
 			children = (
+				93DF40EC264E74E500BA9394 /* icon.png */,
 				936E53FA264D486E0001C283 /* AppDelegate.swift */,
 				936E53FC264D486E0001C283 /* SceneDelegate.swift */,
 				936E53FE264D486E0001C283 /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93DF40ED264E74E500BA9394 /* icon.png in Resources */,
 				936E5407264D48710001C283 /* LaunchScreen.storyboard in Resources */,
 				936E5404264D48710001C283 /* Assets.xcassets in Resources */,
 				936E5402264D486F0001C283 /* Main.storyboard in Resources */,
@@ -285,7 +289,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7YNV6AXF4;
 				INFOPLIST_FILE = Maze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +308,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z7YNV6AXF4;
 				INFOPLIST_FILE = Maze/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
